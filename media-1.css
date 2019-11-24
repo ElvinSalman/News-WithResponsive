@@ -1,0 +1,76 @@
+.toggleMenu {
+  display: none;
+}
+
+label.toggleMenu {
+  color: grey;
+  font-weight: 400;
+  background: white;
+  display: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+}
+
+.imgmenu {
+  margin-left: 12px;
+  margin-top: -5px;
+}
+
+@media all and (max-width: 992px) {
+  .headeer {
+    height: 40px;
+  }
+  .headeer head {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .headeer .header-1 .header {
+    margin-top: -12%;
+  }
+  .headeer .header-1 .header .logo,
+  .headeer .header-1 .header .text {
+    display: none;
+  }
+  .headeer .header-1 .head-txt {
+    display: none;
+  }
+  .img-sec {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: block;
+  }
+  .img-sec .head-sec-1 {
+    text-align: center;
+  }
+  .img-sec .head-sec-1 .img-1 {
+    margin: 0 12%;
+  }
+  .img-sec .img-2 {
+    display: none;
+  }
+  .header-22 {
+    margin-left: 50px;
+  }
+  .header-22 .home .hi {
+    display: block;
+  }
+  label.toggleMenu {
+    display: block;
+    margin-left: -90px;
+  }
+  nav {
+    display: none;
+  }
+  input.toggleMenu:checked + Label.toggleMenu {
+    background: #05051f;
+    color: white;
+  }
+  input.toggleMenu:checked ~ nav {
+    display: block;
+  }
+}
+/*# sourceMappingURL=media-1.css.map */

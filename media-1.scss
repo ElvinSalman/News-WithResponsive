@@ -1,0 +1,80 @@
+.toggleMenu{
+    display: none;
+}
+label.toggleMenu{
+    color: grey;
+    font-weight: 400;
+    background: white;
+    display: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+.imgmenu{
+margin-left: 12px;
+margin-top:-5px;
+}
+@media all and (max-width:992px) {
+    .headeer {
+        height: 40px;
+        head{
+            display: block;
+            justify-content: center;
+        }
+        .header-1 {
+            .header {
+
+                margin-top: -12%;
+                
+                .logo,
+                .text {
+                    display: none;
+                }
+            }
+
+            .head-txt {
+                display: none;
+            }
+        }
+    }
+
+.img-sec{
+   justify-content: center;
+    display: block;
+    .head-sec-1{
+        text-align: center;
+    .img-1{
+        margin: 0 12%;
+    }
+}
+    .img-2 {
+        display: none;
+    }
+}
+   
+
+  .header-22{
+      margin-left: 50px;
+      .home{ 
+      .hi{
+          display: block;
+      }
+  }
+}
+label.toggleMenu{
+    display: block;
+    margin-left: -90px;
+}
+nav{
+display: none;    
+}
+input.toggleMenu:checked+Label.toggleMenu{
+    background: rgb(5, 5, 31);
+    color: white;
+}
+
+input.toggleMenu:checked ~ nav{
+    display: block;
+}
+
+}

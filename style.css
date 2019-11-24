@@ -1,0 +1,787 @@
+@import url("media-1.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.headeer {
+  background-color: #05051f;
+  width: 100%;
+}
+
+.header-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-1 .header {
+  background: #1d418d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2rem;
+  width: 150px;
+  height: 40px;
+}
+
+.header-1 .header .logo {
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header-1 .header .text {
+  margin-top: 7px;
+  font-size: 15px;
+  font-weight: 500;
+  color: aliceblue;
+  margin-right: 10px;
+}
+
+.header-1 .head-txt {
+  margin-left: 15px;
+  margin-top: 7px;
+}
+
+.header-1 .head-txt a {
+  font-size: 14px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.header-1 .head-txt a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.header-2 .d1 form {
+  position: relative;
+  width: 300px;
+  margin: 0 160px;
+}
+
+.header-2 .d1 form .fb {
+  margin-left: 2rem;
+  margin-right: 5px;
+}
+
+.header-2 .d1 form .fb:hover {
+  background: blue;
+  border-radius: 30%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.header-2 .d1 form .ins {
+  margin-right: 5px;
+}
+
+.header-2 .d1 form .ins:hover {
+  background: red;
+  border-radius: 100%;
+}
+
+.header-2 .d1 form .tw:hover {
+  background: aqua;
+  border-radius: 100%;
+}
+
+.header-2 .d1 input {
+  color: white;
+  width: 130px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 5px;
+  background-color: #05051f;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.header-2 .d1 button {
+  text-align: right;
+  width: 40px;
+  margin-left: -4px;
+  margin-top: 5px;
+  background-color: #05051f;
+  border: none;
+  color: white;
+  border-bottom: 1px solid grey;
+}
+
+.header-section .head-sec-1 {
+  padding: 40px;
+}
+
+.header-section .head-sec-1 .img-1 {
+  margin-left: 100px;
+  width: 185px;
+}
+
+.header-section .head-sec-2 {
+  margin-left: -160px;
+  padding: 20px 50px;
+}
+
+.header-2x {
+  border-top: 1px solid #c4b9b9;
+}
+
+.header-2x .header-22 {
+  width: 100%;
+  margin-top: 0;
+  padding: 16px;
+}
+
+.header-2x .header-22 .Home .boss-1::after {
+  content: "\F107";
+}
+
+.header-2x .header-22 .Home .boss-2::after {
+  content: "\F105";
+}
+
+.header-2x .header-22 .Home .second-2 {
+  background-color: #fff;
+  width: 200px;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 40px;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.header-2x .header-22 .Home .second-2 .second {
+  padding: 10px 20px;
+}
+
+.header-2x .header-22 .Home .second-2:hover {
+  background-color: #0e649b;
+}
+
+.header-2x .header-22 .Home .second-2:hover .second {
+  color: white;
+}
+
+.header-2x .header-22 .Home .third-3:hover {
+  background-color: #0e649b;
+  border-left: 1px solid grey;
+}
+
+.header-2x .header-22 .Home .third-3:hover .third {
+  color: white;
+}
+
+.header-2x .header-22 .Home .third-3 {
+  width: 200px;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 40px;
+  margin-bottom: 0;
+  background-color: #fff;
+  margin-left: -41px;
+}
+
+.header-2x .header-22 .Home ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header-2x .header-22 .Home li {
+  list-style-type: none;
+}
+
+.header-2x .header-22 .Home nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+.header-2x .header-22 .Home nav ul li:hover > ul {
+  display: inherit;
+}
+
+.header-2x .header-22 .Home nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.header-2x .header-22 .Home a {
+  padding: 19px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 26px;
+  font-weight: 300;
+  color: grey;
+  margin: 5px 10px;
+}
+
+.header-2x .header-22 .Home .main:hover {
+  border-top: 3px solid #242466;
+}
+
+.header-2x .header-22 .Home .main:focus {
+  border-top: 3px solid #242466;
+}
+
+.header-2x .header-22 .Home .first {
+  margin-left: -115px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #05101d;
+  width: 100%;
+  height: 480px;
+  margin-top: -16px;
+}
+
+.section .photo1 {
+  margin-left: 130px;
+}
+
+.section .photo1 img {
+  width: 100%;
+  height: 480px;
+}
+
+.section .photo1:hover {
+  -webkit-box-shadow: 1px 3px 15px white;
+          box-shadow: 1px 3px 15px white;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.section .photo1 .all-btn-date-txt {
+  margin-left: 3%;
+}
+
+.section .photo1 .all-btn-date-txt .photo-1-txt {
+  margin-top: -13%;
+}
+
+.section .photo1 .all-btn-date-txt .photo-1-txt a {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.section .photo1 .button-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .photo1 .button-and-date .btn {
+  height: 40px;
+  cursor: pointer;
+}
+
+.section .photo1 .button-and-date .date {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+}
+
+.section .photo2-3 {
+  display: block;
+  text-align: right;
+  margin-right: 130px;
+}
+
+.section .photo2-3 .photo-2 .all-btn-date-txt-2 {
+  margin-left: 3%;
+}
+
+.section .photo2-3 .photo-2 .all-btn-date-txt-2 .photo-2-txt {
+  text-align: left;
+  margin-top: -21%;
+}
+
+.section .photo2-3 .photo-2 .all-btn-date-txt-2 .photo-2-txt a {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.section .photo2-3 .photo-2 .button-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .photo2-3 .photo-2 .button-and-date .btn {
+  height: 30px;
+  cursor: pointer;
+}
+
+.section .photo2-3 .photo-2 .button-and-date .btn p {
+  margin-top: -6%;
+}
+
+.section .photo2-3 .photo-2 .button-and-date .date {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+}
+
+.section .photo2-3 .photo-3 .img-3 {
+  margin-top: -2px;
+}
+
+.section .photo2-3 .photo-3 .all-btn-date-txt-3 {
+  margin-left: 3%;
+}
+
+.section .photo2-3 .photo-3 .all-btn-date-txt-3 .photo-3-txt {
+  text-align: left;
+  margin-top: -21%;
+}
+
+.section .photo2-3 .photo-3 .all-btn-date-txt-3 .photo-3-txt a {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.section .photo2-3 .photo-3 .button-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .photo2-3 .photo-3 .button-and-date .btn {
+  height: 30px;
+  cursor: pointer;
+}
+
+.section .photo2-3 .photo-3 .button-and-date .btn p {
+  margin-top: -6%;
+}
+
+.section .photo2-3 .photo-3 .button-and-date .date {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+}
+
+.section .photo2-3 img {
+  height: 240px;
+  width: 100%;
+}
+
+.section .photo2-3 .photo-2:hover {
+  -webkit-box-shadow: 1px 3px 15px white;
+          box-shadow: 1px 3px 15px white;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.section .photo2-3 .photo-3:hover {
+  -webkit-box-shadow: 1px 3px 15px white;
+          box-shadow: 1px 3px 15px white;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.section-2 {
+  margin-top: 4%;
+}
+
+.section-2 .sec-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2 .sec-2 .imgg-1 {
+  -webkit-box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+  padding: 0;
+}
+
+.section-2 .sec-2 .imgg-1 .all-btn-date-txt-imgg-1 {
+  margin-left: 3%;
+}
+
+.section-2 .sec-2 .imgg-1 .all-btn-date-txt-imgg-1 .imgg-1-txt {
+  text-align: left;
+  margin-top: -25%;
+}
+
+.section-2 .sec-2 .imgg-1 .all-btn-date-txt-imgg-1 .imgg-1-txt a {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-2 .sec-2 .imgg-1 .button-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2 .sec-2 .imgg-1 .button-and-date .btn {
+  height: 30px;
+  cursor: pointer;
+}
+
+.section-2 .sec-2 .imgg-1 .button-and-date .btn p {
+  margin-top: -6%;
+}
+
+.section-2 .sec-2 .imgg-1 .button-and-date .date {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+}
+
+.section-2 .sec-2 .imgg-1:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2s);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.section-2 .sec-2 .imgg-2 {
+  -webkit-box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+  padding: 0;
+}
+
+.section-2 .sec-2 .imgg-2 .all-btn-date-txt-imgg-2 {
+  margin-left: 3%;
+}
+
+.section-2 .sec-2 .imgg-2 .all-btn-date-txt-imgg-2 .imgg-2-txt {
+  text-align: left;
+  margin-top: -25%;
+}
+
+.section-2 .sec-2 .imgg-2 .all-btn-date-txt-imgg-2 .imgg-2-txt a {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-2 .sec-2 .imgg-2 .button-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2 .sec-2 .imgg-2 .button-and-date .btn {
+  height: 30px;
+  cursor: pointer;
+}
+
+.section-2 .sec-2 .imgg-2 .button-and-date .btn p {
+  margin-top: -6%;
+}
+
+.section-2 .sec-2 .imgg-2 .button-and-date .date {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+}
+
+.section-2 .sec-2 .imgg-2:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2s);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.section-2 .sec-2 .imgg-3 {
+  -webkit-box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+  padding: 0;
+}
+
+.section-2 .sec-2 .imgg-3 .all-btn-date-txt-imgg-3 {
+  margin-left: 3%;
+}
+
+.section-2 .sec-2 .imgg-3 .all-btn-date-txt-imgg-3 .imgg-3-txt {
+  text-align: left;
+  margin-top: -25%;
+}
+
+.section-2 .sec-2 .imgg-3 .all-btn-date-txt-imgg-3 .imgg-3-txt a {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-2 .sec-2 .imgg-3 .button-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2 .sec-2 .imgg-3 .button-and-date .btn {
+  height: 30px;
+  cursor: pointer;
+}
+
+.section-2 .sec-2 .imgg-3 .button-and-date .btn p {
+  margin-top: -6%;
+}
+
+.section-2 .sec-2 .imgg-3 .button-and-date .date {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+}
+
+.section-2 .sec-2 .imgg-3:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2s);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.section-2 .sec-2 .imgg-4 {
+  -webkit-box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.6);
+  padding: 0;
+}
+
+.section-2 .sec-2 .imgg-4 .all-btn-date-txt-imgg-4 {
+  margin-left: 3%;
+}
+
+.section-2 .sec-2 .imgg-4 .all-btn-date-txt-imgg-4 .imgg-4-txt {
+  text-align: left;
+  margin-top: -25%;
+}
+
+.section-2 .sec-2 .imgg-4 .all-btn-date-txt-imgg-4 .imgg-4-txt a {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-2 .sec-2 .imgg-4 .button-and-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2 .sec-2 .imgg-4 .button-and-date .btn {
+  height: 30px;
+  cursor: pointer;
+}
+
+.section-2 .sec-2 .imgg-4 .button-and-date .btn p {
+  margin-top: -6%;
+}
+
+.section-2 .sec-2 .imgg-4 .button-and-date .date {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+}
+
+.section-2 .sec-2 .imgg-4:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2s);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.section-2 .sec-2 img {
+  position: relative;
+  z-index: -2;
+  width: 285px;
+  height: 200px;
+}
+
+.sec-img .secc-img {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 5%;
+  width: 100%;
+  height: 400px;
+  background: #05172b;
+}
+
+.footer .foot-row .first {
+  margin-top: 3%;
+}
+
+.footer .foot-row .first h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer .foot-row .first p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a9afb5;
+}
+
+.footer .foot-row .second {
+  margin-top: 3%;
+}
+
+.footer .foot-row .second h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer .foot-row .second a {
+  color: #a9afb5;
+  text-decoration: none;
+}
+
+.footer .foot-row .second a:hover {
+  color: #25259b;
+}
+
+.footer .foot-row .second p {
+  color: #455263;
+  font-size: 12px;
+}
+
+.footer .foot-row .third {
+  margin-top: 3%;
+}
+
+.footer .foot-row .third h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer .foot-row .third a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  border-bottom: 1px dotted rgba(225, 225, 225, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .foot-row .third a p {
+  margin-right: 160px;
+  font-size: 15px;
+  color: #a9afb5;
+}
+
+.footer .foot-row .third a span {
+  cursor: text;
+  color: #2c3745;
+}
+
+.footer .foot-row .third a:hover > p {
+  color: #25259b;
+}
+
+.footer .foot-row .third a:hover > span {
+  color: #25259b;
+}
+
+.footer .foot-row .third .eventss {
+  margin-right: 177px;
+}
+
+.footer .foot-row .third .newss {
+  margin-right: 183px;
+}
+
+.footer .foot-row .third .world {
+  margin-right: 175px;
+  border: none;
+}
+
+.footer .foot-row .fourth {
+  margin-top: 3%;
+}
+
+.footer .foot-row .fourth a {
+  text-decoration: none;
+}
+
+.footer .foot-row .fourth h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer .foot-row .fourth p span {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 645;
+  line-height: 21px;
+}
+
+.footer .foot-row .fourth p .last-span {
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 15px;
+  color: #a9afb5;
+}
+
+.footer .foot-row .fourth p a {
+  color: #a9afb5;
+  text-decoration: none;
+}
+
+.footer .foot-row .fourth p a:hover {
+  color: #25259b;
+}
+
+.footer-end {
+  width: 100%;
+  background: #000f20;
+}
+
+.footer-end .first-col p {
+  font-size: 15px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.footer-end .second-col {
+  margin-top: 20px;
+}
+
+.footer-end .second-col a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  margin: 20px 10px;
+}
+/*# sourceMappingURL=style.css.map */
