@@ -1,7 +1,8 @@
-.toggleMenu{
+.toggleMenu {
     display: none;
 }
-label.toggleMenu{
+
+label.toggleMenu {
     color: grey;
     font-weight: 400;
     background: white;
@@ -10,71 +11,207 @@ label.toggleMenu{
     cursor: pointer;
     position: relative;
 }
-.imgmenu{
-margin-left: 12px;
-margin-top:-5px;
-}
-@media all and (max-width:992px) {
-    .headeer {
-        height: 40px;
-        head{
-            display: block;
-            justify-content: center;
-        }
-        .header-1 {
-            .header {
 
-                margin-top: -12%;
-                
-                .logo,
-                .text {
-                    display: none;
+.imgmenu {
+    margin-left: 12px;
+    margin-top: -5px;
+}
+
+@media all and (max-width:992px) {
+    header {
+        width: 740px;
+
+        .headeer {
+            .head {
+                .header-1 {
+                    width: 100%;
+
+
+                    .header {
+                        display: none;
+                    }
+
+                    .head-txt {
+                        margin: 0 auto;
+                    }
+                }
+
+                .header-2 {
+                    .d1 {
+                        input {
+                            width: 59%;
+                            margin-left: 27%;
+                        }
+
+                        a {
+                            display: none;
+                        }
+                    }
                 }
             }
+        }
+    }
 
-            .head-txt {
+    .header-section {
+        .img-sec {
+            .head-sec-1 {
+                margin-left: 35%;
+            }
+
+            .head-sec-2 {
                 display: none;
             }
         }
     }
 
-.img-sec{
-   justify-content: center;
-    display: block;
-    .head-sec-1{
-        text-align: center;
-    .img-1{
-        margin: 0 12%;
+    .header-2x {
+        width: 740px;
+
+        .header-22 {
+            .Home {
+                margin-left: 10%;
+
+                nav {
+                    .hi {
+                        display: block;
+
+                        .main {
+                            margin-left: -23.3%;
+                            border: none;
+                        }
+
+                    }
+                }
+            }
+        }
     }
-}
-    .img-2 {
+
+    section {
+        width: 740px;
+        margin-bottom: 20%;
+
+        .section {
+            display: block;
+            height: 980px;
+
+            .photo1 {
+                margin-right: 0%;
+                margin-left: 0%;
+                margin-bottom: 3%;
+            }
+
+            .photo-2 {
+                margin-left: 10%;
+                margin-right: -10%;
+                margin-bottom: 9%;
+            }
+
+            .photo-3 {
+                margin-left: 10%;
+                margin-right: -10%;
+
+            }
+        }
+    }
+
+    .section-2{
+     margin-left: 30%;
+     background:#05101d ;
+     margin-bottom: 10%;
+        .sec-2{
+            display: block;
+            width: 500px;
+            height: 1100px;
+            text-align: left;
+            .imgg-1{
+                text-align: right;
+                margin-bottom: 3%;
+                height: 250px;
+                .all-btn-date-txt-imgg-1{
+                    display: block;
+                }
+               img{
+                   height: 250px;
+                   width: 250px;
+               }
+            }
+            .imgg-2{
+                text-align: right;
+                margin-bottom: 3%;
+                height: 250px;
+                .all-btn-date-txt-imgg-2{
+                    display: block;
+                }
+               img{
+                   height: 250px;
+                   width: 250px;
+               }
+            }
+            .imgg-3{
+                text-align: right;
+                margin-bottom: 3%;
+                height: 250px;
+                .all-btn-date-txt-imgg-3{
+                    display: block;
+                }
+               img{
+                   height: 250px;
+                   width: 250px;
+               }
+            }
+     
+            .imgg-4{
+                text-align: right;
+                margin-bottom: 3%;
+                height: 250px;
+                .all-btn-date-txt-imgg-4{
+                    display: block;
+                }
+               img{
+                   height: 250px;
+                   width: 250px;
+               }
+            }
+            .for-margin-4{
+                margin-bottom:-3%;
+            }
+        }
+    }
+
+    footer{
+        .footer{
+            margin-bottom:0 ;
+            height: 890px;
+            width: 740px;
+            .foot-row{
+                display: block;
+            }
+        }
+        .footer-end{
+            margin-top: -5%;
+            width: 740px;
+            .foot-sec-row{
+                display: block;
+            }
+        }
+    }
+
+    label.toggleMenu {
+        display: block;
+        margin-left: -90px;
+    }
+
+    nav {
         display: none;
     }
-}
-   
 
-  .header-22{
-      margin-left: 50px;
-      .home{ 
-      .hi{
-          display: block;
-      }
-  }
-}
-label.toggleMenu{
-    display: block;
-    margin-left: -90px;
-}
-nav{
-display: none;    
-}
-input.toggleMenu:checked+Label.toggleMenu{
-    background: rgb(5, 5, 31);
-    color: white;
-}
+    input.toggleMenu:checked Label.toggleMenu {
+        background: rgb(5, 5, 31);
+        color: white;
+    }
 
-input.toggleMenu:checked ~ nav{
-    display: block;
-}
+    input.toggleMenu:checked~nav {
+        display: block;
+    }
 
 }

@@ -18,44 +18,141 @@ label.toggleMenu {
 }
 
 @media all and (max-width: 992px) {
-  .headeer {
-    height: 40px;
+  header {
+    width: 740px;
   }
-  .headeer head {
+  header .headeer .head .header-1 {
+    width: 100%;
+  }
+  header .headeer .head .header-1 .header {
+    display: none;
+  }
+  header .headeer .head .header-1 .head-txt {
+    margin: 0 auto;
+  }
+  header .headeer .head .header-2 .d1 input {
+    width: 59%;
+    margin-left: 27%;
+  }
+  header .headeer .head .header-2 .d1 a {
+    display: none;
+  }
+  .header-section .img-sec .head-sec-1 {
+    margin-left: 35%;
+  }
+  .header-section .img-sec .head-sec-2 {
+    display: none;
+  }
+  .header-2x {
+    width: 740px;
+  }
+  .header-2x .header-22 .Home {
+    margin-left: 10%;
+  }
+  .header-2x .header-22 .Home nav .hi {
     display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
-  .headeer .header-1 .header {
-    margin-top: -12%;
+  .header-2x .header-22 .Home nav .hi .main {
+    margin-left: -23.3%;
+    border: none;
   }
-  .headeer .header-1 .header .logo,
-  .headeer .header-1 .header .text {
-    display: none;
+  section {
+    width: 740px;
+    margin-bottom: 20%;
   }
-  .headeer .header-1 .head-txt {
-    display: none;
+  section .section {
+    display: block;
+    height: 980px;
   }
-  .img-sec {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  section .section .photo1 {
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 3%;
+  }
+  section .section .photo-2 {
+    margin-left: 10%;
+    margin-right: -10%;
+    margin-bottom: 9%;
+  }
+  section .section .photo-3 {
+    margin-left: 10%;
+    margin-right: -10%;
+  }
+  .section-2 {
+    margin-left: 30%;
+    background: #05101d;
+    margin-bottom: 10%;
+  }
+  .section-2 .sec-2 {
+    display: block;
+    width: 500px;
+    height: 1100px;
+    text-align: left;
+  }
+  .section-2 .sec-2 .imgg-1 {
+    text-align: right;
+    margin-bottom: 3%;
+    height: 250px;
+  }
+  .section-2 .sec-2 .imgg-1 .all-btn-date-txt-imgg-1 {
     display: block;
   }
-  .img-sec .head-sec-1 {
-    text-align: center;
+  .section-2 .sec-2 .imgg-1 img {
+    height: 250px;
+    width: 250px;
   }
-  .img-sec .head-sec-1 .img-1 {
-    margin: 0 12%;
+  .section-2 .sec-2 .imgg-2 {
+    text-align: right;
+    margin-bottom: 3%;
+    height: 250px;
   }
-  .img-sec .img-2 {
-    display: none;
+  .section-2 .sec-2 .imgg-2 .all-btn-date-txt-imgg-2 {
+    display: block;
   }
-  .header-22 {
-    margin-left: 50px;
+  .section-2 .sec-2 .imgg-2 img {
+    height: 250px;
+    width: 250px;
   }
-  .header-22 .home .hi {
+  .section-2 .sec-2 .imgg-3 {
+    text-align: right;
+    margin-bottom: 3%;
+    height: 250px;
+  }
+  .section-2 .sec-2 .imgg-3 .all-btn-date-txt-imgg-3 {
+    display: block;
+  }
+  .section-2 .sec-2 .imgg-3 img {
+    height: 250px;
+    width: 250px;
+  }
+  .section-2 .sec-2 .imgg-4 {
+    text-align: right;
+    margin-bottom: 3%;
+    height: 250px;
+  }
+  .section-2 .sec-2 .imgg-4 .all-btn-date-txt-imgg-4 {
+    display: block;
+  }
+  .section-2 .sec-2 .imgg-4 img {
+    height: 250px;
+    width: 250px;
+  }
+  .section-2 .sec-2 .for-margin-4 {
+    margin-bottom: -3%;
+  }
+  footer .footer {
+    margin-bottom: 0;
+    height: 890px;
+    width: 740px;
+  }
+  footer .footer .foot-row {
+    display: block;
+  }
+  footer .footer-end {
+    margin-top: -5%;
+    width: 740px;
+  }
+  footer .footer-end .foot-sec-row {
     display: block;
   }
   label.toggleMenu {
@@ -65,7 +162,7 @@ label.toggleMenu {
   nav {
     display: none;
   }
-  input.toggleMenu:checked + Label.toggleMenu {
+  input.toggleMenu:checked Label.toggleMenu {
     background: #05051f;
     color: white;
   }
